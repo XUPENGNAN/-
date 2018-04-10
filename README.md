@@ -4,6 +4,7 @@
 ### 使用 toLocaleString();可以实现货币数字的格式化
 
 #### 语法：numObj.toLocaleString([locales [, options]])
+
 ```
 var price = 2499;
 var newprice= price.toLocaleString('zh-Hans-CN', {
@@ -25,7 +26,7 @@ var newprice= price.toLocaleString('zh-Hans-CN', {
 
 参见：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
 
-### 使用 toLocaleString();可以实现时间的格式化
+#### 使用 toLocaleString();可以实现时间的格式化
 ```
 var two = new Date();
 console.log(two.toLocaleString());
